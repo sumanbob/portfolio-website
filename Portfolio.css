@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/* Custom Tailwind / Bootstrap CSS Customizations */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: #343a40;
+}
+
+.port {
+    background-color: #000000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: #0d6efd;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-text {
+    color: #666;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    color: #333;
+}
